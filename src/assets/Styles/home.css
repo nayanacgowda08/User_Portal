@@ -1,0 +1,48 @@
+/* 
+
+.container{
+    background-image: url("https://media.istockphoto.com/id/887088424/photo/hands-touching-global-connection-and-icon-customer-networking-data-exchanges-on-glitter-bright.jpg?s=612x612&w=0&k=20&c=5QClLqyVwsP3Y_DpfiWfBDN232hz2-GdNAY__keFVEY=");
+    width: 50%;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 8vh auto;
+    opacity:0.9;
+    z-index: -1;
+    transition: all 0.2s ease-in-out;
+}
+
+
+
+
+
+*/
+
+/* .container:hover {
+    opacity: 1;
+    z-index: 1;
+    scale: 1.2;
+    
+} */
+
+
+.text{
+    margin: 5vh;
+  text-align: center;
+}
+
+
+.text h1{
+    font-size: 3em;
+    color: black;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.text p{
+    font-size: 1.5em;
+    color: gray;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+} 

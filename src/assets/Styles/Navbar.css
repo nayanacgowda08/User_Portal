@@ -1,0 +1,30 @@
+.navbar-conatiner ul {
+    width: 22%;
+    /* background-color: blue; */
+    margin: auto;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.navbar-conatiner{
+    width: 100%;
+    background-color: rgba(23, 23, 23, 0.8);
+}
+
+.navbar-conatiner ul li {
+    list-style: none;
+}
+
+
+.navbar-conatiner ul li a {
+    text-decoration: none;
+    color: white; 
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.navbar-conatiner ul li a:hover {
+    text-decoration: underline; 
+}

@@ -1,0 +1,39 @@
+.user {
+    background-color: #eeede7; /* Light beige color for a soft background */
+    /* padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;  */
+}
+
+
+.card{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 4vh 4vw;
+    align-items: center;
+    padding-left: 20px;
+    
+  
+    /* padding: 50px; */
+}
+
+.card .btn {
+    margin-top: 1vh;
+    background-color:#2AA977 ;
+    color: rgb(255, 255, 255); 
+    padding: 20px 20px; 
+    font-size: 20px;
+    width: 90%; 
+    border: none;
+    border-radius: 8px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card .btn:hover {
+    background-color: #34D399; /* Darken the green slightly on hover */
+}

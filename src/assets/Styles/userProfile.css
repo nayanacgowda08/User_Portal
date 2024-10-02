@@ -1,0 +1,40 @@
+.user-profile {
+  width: 100%;
+  max-width: 800px;
+  margin: 20vh auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  overflow: hidden;
+  /* background-color: #f5f5f5; */
+}
+
+.user-profile .header {
+  padding: 20px;
+  background: #f8afa6;
+  color: white;
+  font-size: 30px;
+}
+
+.user-profile .others {
+  background-color: #74bdcb;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 20px;
+  border-radius: 0px 0px 20px 20px;
+}
+
+.user-profile .others p {
+  margin: 5px 0;
+}
+
+.user-profile button {
+  padding: 15px 20px;
+  width: 20%;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  box-shadow:inset 0px 0px 10px green;
+}
